@@ -1,0 +1,21 @@
+{
+  "name": "Photop Aura Analyzer",
+  "short_name": "Photop Aura",
+  "start_url": "/",
+  "theme_color": "#5ab7fa",
+  "background_color": "#151617",
+  "description": "Check the aura of a Photop user with just their username.",
+  "orientation": "portrait",
+  "display": "standalone",
+  "categories": [],
+  "icons": [
+    {
+      "src": "https://app.photop.live/icons/favicon.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [],
+  "scope": "/"
+}

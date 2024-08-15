@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Photop Aura Analyzer</title>
+    <link rel="stylesheet" href="/src/css/index.css">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Photop Aura Analyzer">
+    <meta property="og:site_name" content="Photop Aura Analyzer">
+    <meta property="og:url" content="https://photopaura.onrender.com/">
+    <meta property="og:description" content="Check the aura of a Photop user with just their username.">
+    <meta property="og:image" content="https://app.photop.live/icons/favicon.png">
+    <meta name="description" content="Check the aura of a Photop user with just their username.">
+    <meta name="author" content="W">
+    <link rel="shortcut icon" href="https://app.photop.live/icons/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#5AB7FA">
+    <link rel="icon" href="https://app.photop.live/icons/favicon.png">
+    <link rel="manifest" href="/src/meta/manifest.json">
+  </head>
+  <body>
+    <div class="section">
+      <div class="inputBar">
+        Enter a username:
+        <input type="text" placeholder="Enter username" id="input.username">
+        <button id="button.check">Check</button>
+      </div>
+    </div>
+    <div class="section" id="section.results">
+      <div id="section.success">
+        <div><span id="text.name"></span> has an aura of</div>
+        <div id="text.aura"></div>
+        <div>and a rank of <b id="text.rank"></b></div>
+      </div>
+      <div id="section.error">Error: make sure the username you entered is correct, and that the profile isn't set to Following or Private.</div>
+    </div>
+    <script src="/src/js/index.js"></script>
+  </body>
+</html>

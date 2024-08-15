@@ -1,0 +1,72 @@
+:root {
+  --pageColor: #151617;
+  --contentColor: #1f1f28;
+  --contentColor2: #24242e;
+  --contentColor3: #2a2a37;
+  --themeColor: #5AB7FA;
+  --fontColor: white;
+}
+body {
+  background: var(--pageColor);
+  color: var(--fontColor);
+}
+* {
+  font-family: system-ui, sans-serif;
+}
+.section {
+  max-width: 500px;
+  background: var(--contentColor);
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.inputBar {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+input {
+  background: var(--contentColor2);
+  font-size: inherit;
+  font-weight: bold;
+  color: var(--fontColor);
+  border: none;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+input:focus {
+  outline: solid;
+  outline-width: 3px;
+  outline-color: #9292a8;
+}
+button {
+  font-size: inherit;
+  background: var(--themeColor);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+button:active:hover {
+  transform: scale(0.95);
+}
+#section\.results, #section\.success, #section\.failure {
+  display: none;
+}
+#text\.aura {
+  font-weight: 900;
+  font-size: 50px;
+  color: var(--themeColor);
+}
+#text\.rank {
+  font-size: 20px;
+  color: var(--themeColor);
+}
+#section\.results {
+  text-align: center;
+}
